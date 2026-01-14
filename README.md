@@ -4,7 +4,7 @@
 > (1) **Application classification** and (2) **Traffic attribution classification** — designed for a balanced dataset with limited samples.  
 > The solution is delivered as a **Dockerized inference system** that outputs predictions for both tasks.
 
-🔗 ** Demo:** **https://drive.google.com/file/d/1cCYAM0HiYiIMvFm0WW4_EhMRokpG6SQO/view?usp=sharing**
+🔗 ** Demo:** https://drive.google.com/file/d/1cCYAM0HiYiIMvFm0WW4_EhMRokpG6SQO/view?usp=sharing
 
 ---
 ## Dataset
