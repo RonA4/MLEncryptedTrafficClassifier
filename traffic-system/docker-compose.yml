@@ -1,0 +1,17 @@
+services:
+  api:
+    build: ./api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/srv/models
+    environment:
+      - APP_MODEL_PATH=/srv/models/app_model.joblib
+      - ATT_MODEL_PATH=/srv/models/att_model.joblib
+
+  ui:
+    build: ./ui
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
